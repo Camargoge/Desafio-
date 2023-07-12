@@ -15,5 +15,5 @@
 A linguagem escolhida para executar o desafio foi Kotlin.
 
 ### Onde você poderá executar o código?
- Você poderáa executar e testar o código proposto na plataforma Kotlin Playground. Link:
+ Você poderá executar e testar o código proposto na plataforma Kotlin Playground. Link:
 https://play.kotlinlang.org 
