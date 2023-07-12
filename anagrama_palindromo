@@ -1,0 +1,27 @@
+fun isAnagramaDePalindromo(string: String): Boolean {
+    val characterCounter = HashMap<Char, Int>()
+
+    // Conta a frequência de cada caractere na string
+    for (caractere in string) {
+        characterCounter[caractere] = characterCounter.getOrDefault(caractere, 0) + 1
+    }
+
+    var numImpares = 0
+
+    // Verifica quantos caracteres têm frequência ímpar
+    for (contador in characterCounter.values) {
+        if (contador % 2 != 0) {
+            numImpares++
+        }
+    }
+
+    // Retorna true se houver no máximo 1 caractere com frequência ímpar
+    return numImpares <= 1
+}
+
+fun main() {
+    val word = "coco"    
+    val AnagramaDePalindromo = isAnagramaDePalindromo(word)    
+    println(AnagramaDePalindromo)
+}
+    
