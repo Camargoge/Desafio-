@@ -1,11 +1,1 @@
-fun invertOrder(sentence: String): String {
-    val words = sentence.split(" ")
-    val wordsInverted = words.reversed()
-    return wordsInverted.joinToString(" ")
-}
 
-fun main() {
-    val sentence = "Eu quero estagiar na Pwc!"
-    val sentenceInverted = invertOrder(sentence)
-    println(sentenceInverted)
-}
