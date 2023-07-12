@@ -1,0 +1,9 @@
+fun firstLetter(string: String): String {
+    return string.capitalize()
+}
+
+fun main() {
+    val word = "exemplo"
+    val wordFirstLetter = firstLetter(word)
+    println(wordFirstLetter)
+}    
