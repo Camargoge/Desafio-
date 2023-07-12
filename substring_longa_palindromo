@@ -1,0 +1,25 @@
+fun showlongestSubWordPalindromo(string: String): String {
+    var longestSubWord = ""
+
+    for (i in 0 until string.length) {
+        for (j in i + 1..string.length) {
+            val subWord = string.substring(i, j)
+            if (subWord.length > longestSubWord.length && isPalindromo(subWord)) {
+                longestSubWord = subWord
+            }
+        }
+    }
+
+    return longestSubWord
+}
+
+fun isPalindromo(word: String): Boolean {
+    val reversed = word.reversed()
+    return word == reversed
+}
+
+fun main() {
+    val word = "arara"
+    val subWordPalindromo = showlongestSubWordPalindromo(word)
+    println(subWordPalindromo)
+}
