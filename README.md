@@ -1,4 +1,5 @@
 # Desafio
+<img https://drive.google.com/file/d/1UrwGkWwR31WE3nkJo-PrI_jS4uKCrC9K/view?usp=sharing>
 
 ### O objetivo deste pequeno projeto é oferecer soluções para o desafio proposto no processo seletivo para a vaga de estagiário. A solução solicitada é a manipulação de strings de diversas formas, são elas:
 
