@@ -1,0 +1,18 @@
+fun removeDuplicates(sentence: String): String {
+    val singlecharacters = StringBuilder()
+    val characterset = HashSet<Char>()
+
+    for (caractere in sentence) {
+        if (characterset.add(caractere)) {
+            singlecharacters.append(caractere)
+        }
+    }
+
+    return singlecharacters.toString()
+}
+
+fun main() {
+    val sentence = "Eu quero estagiar na Pwc"
+    val noDuplicates = removeDuplicates(sentence)
+    println(noDuplicates)
+}
