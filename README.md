@@ -1,4 +1,5 @@
-# Desafio
+# DESAFIO
+
 ![capa png](https://github.com/Camargoge/Desafio-/assets/92832537/949af8b6-f59f-4460-90d1-0f753724616f)
 
 
@@ -14,5 +15,5 @@
 A linguagem escolhida para executar o desafio foi Kotlin.
 
 ### Onde você poderá executar o código?
- Você poderáa executar e testar o código proposto na plataforma Kotlin Playground. Link abaixo:
+ Você poderáa executar e testar o código proposto na plataforma Kotlin Playground. Link:
 https://play.kotlinlang.org 
